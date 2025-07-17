@@ -1,0 +1,35 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    :hover{
+        background-color: aqua;
+    }
+}
+
+
+
+/*Creating an Article*/
+.heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(29, 13, 1);
+    padding: 1px;
+}
+
+.center{
+    text-align: center;
+}  
+
+/*Creating a Form*/
+form .basic-info label{
+    display: block;
+    padding: 5px 0px;
+}
+
+fieldset{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        .container{
+            display: flex;
+            gap: 10px;
+            
+        }
+
+        .container div{
+            
+            border: 2px solid red;
+            /*margin: 3px;*/
+            display: flex;
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-container{
+            display: flex;
+            gap: 10px;
+        }
+
+        .box{
+            border: 2px solid blue;
+            height: 100px;
+            width: 100px;
+            display: flex;
+        }
+
+        
+        .user-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .user{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            background-color: cornflowerblue;
+
+        }
+
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+        <div class="user">user-4</div>
+        <div class="user">user-5</div>
+        <div class="user">user-6</div>
+        <div class="user">user-7</div>
+        <div class="user">user-8</div>
+        <div class="user">user-9</div>
+        <div class="user">user-10</div>
+        <div class="user">user-11</div>
+        <div class="user">user-12</div>
+
+
+    </div>
+
+    <div class="container">
+
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+
+    </div>
+
+    <div class="box-container">
+    <!--.box{$}*6-->
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    </div>
+
+    <div class="user-container">
+
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div> 
+    </div>
+</body>
+</html>

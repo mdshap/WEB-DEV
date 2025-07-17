@@ -1,0 +1,34 @@
+ header{
+    display: flex;
+    justify-content: center;
+ }
+
+.hero-container{
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.hero-container div{
+    margin: 20px;
+    text-align: left;
+
+ }
+
+ .hero-container button{
+    background-color: brown;
+    font-size: 1.1em;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+ }
+
+ button:hover{
+    background-color: rgb(64, 70, 255);
+ }
+
