@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header, nav, main, .sidebar, .advertising, footer {
+            border: 1px solid black;
+            background-color: rgb(253, 255, 131);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        aside{;
+        }
+
+        header{
+                grid-area: header;
+            }
+
+        nav{
+                grid-area: nav;
+            }
+        main{
+                grid-area: main;
+            }
+        .sidebar{
+                grid-area: sidebar;
+            }
+        .advertising{
+                grid-area: advertising;
+            }
+        footer{
+                grid-area: footer;
+            }
+
+        body{
+            display: grid;
+            grid-template-areas: 
+                "header  header  header  header"
+                "nav     main    main    sidebar"
+                "nav     main    main    advertising"
+                "footer  footer  footer  footer";
+            gap: 10px;
+        }
+
+        @media screen and (max-width: 576px) {
+            body {
+                grid-template-areas: 
+                    "header"
+                    "nav"
+                    "main"
+                    "sidebar"
+                    "advertising"
+                    "footer";
+            }
+        }
+        @media screen and (min-width:577px) and (max-width: 768px) 
+        {
+            body {
+                grid-template-areas: 
+                    "header header"
+                    "nav nav"
+                    "main main"
+                    "advertising sidebar"
+                    "footer footer";
+            }
+            
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 992px) 
+        {
+            body {
+                grid-template-areas: 
+                    "header header header"
+                    "nav nav nav"
+                    "sidebar main main"
+                    "advertising footer footer";
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        The Header
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h1>Main Article Area</h1>
+            <p>This is the main article area. We put the articles here. We want to learn web development as soon as possible to be a</p>
+        </article>
+    </main>
+
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+        <div class="advertising">
+        Advertising
+        </div>
+
+
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>

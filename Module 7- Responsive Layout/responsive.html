@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web</title>
+    <style>
+        body{
+            border: 2px solid skyblue;
+            margin: 20px;
+            padding: 10px;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        img{
+            width: 50%;
+        }
+
+        .img-container{
+            display: flex;
+            
+        }
+
+        @media  screen and (max-width:576px) {
+
+            .img-container{
+                flex-direction: column;
+            }
+            
+            img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Viewports meta tag</li>
+        <li>CSS Relative Units</li>
+        <li>    </li>
+        <li></li>
+        <li></li>
+    </ol>
+    <div class="img-container">
+    <img src="food.jpg" alt="">
+    <img src="1900.jpg" alt="">
+    </div>
+    
+</body>
+</html>

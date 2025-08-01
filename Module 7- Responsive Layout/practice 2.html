@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 1140px;
+            border: 1px solid rebeccapurple;
+            height: 100vh;
+            margin: 0 auto;
+        }
+        .item-1{
+            background-color: rgb(255, 45, 94);
+            height: 100%;
+            padding: 100%;
+        }
+        .item-2{
+            background-color: aqua;
+        }
+            .container{
+            display:flex;
+            height: 50%;
+            width: 50%;
+            border: 2px solid skyblue;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .container-2{
+            display: flex;
+            flex-direction: column;
+        }
+        .sub-container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1">
+            <div class="item-1">1</div>
+        </div>
+
+        <div class="container-2">
+            <div class="item-2">2</div>
+            <div class="sub-container">
+                <div class="item-3">3</div>
+                <div class="item-4">4</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

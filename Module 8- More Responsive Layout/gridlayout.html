@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        header{
+            grid-column: span 3;
+            height:70px;
+        }
+        a{
+            text-decoration: none;
+        }
+        header, nav, div, main, .sidebar, .advertising, footer {
+            border: 1px solid black;
+            background-color: rgb(253, 255, 131);
+        }
+
+        main{
+            width: 400px;
+            height: 200px;
+        }
+
+        aside{
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        The Header
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <article>
+            <h1>Main Article Area</h1>
+            <p>This is the main article area. We put the articles here. We want to learn web development as soon as possible to be a</p>
+        </article>
+    </main>
+
+    <aside>
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+        <div class="advertising">
+        Advertising
+    </div>
+    </aside>
+
+
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
