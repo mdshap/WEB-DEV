@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    
+    <style>
+        #texts{
+            color: blue;
+        }
+
+        .bg-yellow{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to Zone</h1>
+           <ul>
+               <li>Safayet</li>
+               <li class="foreign">Bonobash</li>
+               <li class="foreign">Jalali Set</li>
+           </ul>
+        </section>
+        
+    </main>
+
+      <section>
+          <h1 id="texts"> I am the Dom</h1>
+      </section> 
+
+    <script>
+        const student = {
+            name: 'Abul',
+            id: 121,
+            study: function (subject){
+                console.log('studying subject: ', subject)
+            }
+        }
+
+        const liCollection = document.getElementsByTagName('li');
+        //console.log(liCollection);
+
+        for(const li of liCollection)
+        {
+            console.log(li)
+        }
+
+        const GetH1 = document.getElementById('texts')
+        GetH1.innerText = 'Dom de re baba'
+        GetH1.style.color = 'green'
+
+
+        const foreignElements = document.getElementsByClassName('foreign ')
+
+        for(const element of foreignElements)
+        {
+            //console.log(element.innerText)
+        }
+
+        const bgCol = document.querySelector('main')
+        bgCol.style.backgroundColor = 'grey'
+    </script>
+
+    <script src="Js/hello.js"></script>
+
+
+    
+</body>
+</html>

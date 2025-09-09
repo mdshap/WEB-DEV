@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Dpm Doma Dom Dom
+        </h1>
+    </header>
+    <button onclick="yellow()">Click Me</button>
+
+    <button id="btn">Its a button</button>
+
+    <button id="btn-2">Its 2nd Button</button>
+
+    <script>
+        function yellow(){
+            document.body.style.backgroundColor = 'red'
+        }
+
+        const makeGreen = document.getElementById('btn')
+        makeGreen.onclick= function green(){
+             document.body.style.backgroundColor= 'green'
+        }
+
+        document.getElementById('btn-2')
+                .addEventListener('click', function purple(){
+                    document.body.style.backgroundColor = 'purple';
+                }
+            );
+    
+    </script>
+
+
+    <input type="text" name="" id="">
+</body>
+</html>
