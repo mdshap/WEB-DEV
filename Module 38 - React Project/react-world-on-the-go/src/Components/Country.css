@@ -1,0 +1,63 @@
+.country{
+    color: black;
+    box-shadow: 100px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgb(204, 231, 255);
+    
+}
+
+.country-top{
+    color: black;
+    padding: 15px;
+    margin: 0;
+    border-radius: 30px 30px 0 0;
+    width: calc(100%-(20px));
+    background-color: aliceblue;
+    box-shadow: 200px black;
+    
+}
+
+.name-flag{
+    display: flex;
+    align-items: center;
+}
+
+.country img{
+    height: 75px;
+    width: 100px;
+}
+
+.country button{
+    width: 100%;
+}
+
+.country button:hover{
+    color: black;
+    background-color: aqua;
+}
+
+.country-visited{
+    color: black;
+    background-color: rgb(4, 138, 255);
+}
+
+.country h3{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;        /* Use flexbox-like layout for text */
+  -webkit-line-clamp: 2;       /* Limit to 1 line */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.country ul{
+    text-align: left;
+    list-style: none;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: large;
+}

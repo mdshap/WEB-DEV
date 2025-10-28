@@ -1,0 +1,22 @@
+.bottle{
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.bottle ul{
+    list-style: none;
+}
+
+.bottle button{
+    width: 100%;
+    text-align: center;
+}
+
+.bottle button:hover{
+    color: black;
+    background-color: rgb(115, 190, 255);
+}

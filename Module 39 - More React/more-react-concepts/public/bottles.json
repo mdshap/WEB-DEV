@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "PureFlow Spring Water",
+    "size": "500ml",
+    "price": 1.25,
+    "brand": "PureFlow"
+  },
+  {
+    "id": 2,
+    "name": "AquaFresh Mineral Water",
+    "size": "1L",
+    "price": 2.00,
+    "brand": "AquaFresh"
+  },
+  {
+    "id": 3,
+    "name": "CrystalDrop Drinking Water",
+    "size": "750ml",
+    "price": 1.50,
+    "brand": "CrystalDrop"
+  },
+  {
+    "id": 4,
+    "name": "BlueWave Purified Water",
+    "size": "330ml",
+    "price": 0.99,
+    "brand": "BlueWave"
+  },
+  {
+    "id": 5,
+    "name": "HydraMax Alkaline Water",
+    "size": "1.5L",
+    "price": 2.50,
+    "brand": "HydraMax"
+  }
+]

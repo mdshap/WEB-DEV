@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic Fit",
+    "pricePerMonth": "$29",
+    "description": "Essential access for beginners to start their fitness journey.",
+    "features": [
+      "Access to all basic gym equipment",
+      "Locker room access",
+      "1 free fitness assessment",
+      "Open gym access (6 AM - 10 PM)"
+    ]
+  },
+  {
+    "id": 2,
+    "planName": "Pro Active",
+    "pricePerMonth": "$49",
+    "description": "For regular gym-goers who want classes and personal guidance.",
+    "features": [
+      "Unlimited gym access",
+      "Free group fitness classes (Zumba, Yoga, HIIT)",
+      "2 personal training sessions per month",
+      "Sauna and steam room access",
+      "Custom diet suggestions"
+    ]
+  },
+  {
+    "id": 3,
+    "planName": "Elite Performance",
+    "pricePerMonth": "$79",
+    "description": "Premium plan for athletes and serious lifters.",
+    "features": [
+      "24/7 gym access",
+      "Unlimited personal training",
+      "Priority locker and towel service",
+      "Custom diet and workout planning",
+      "Access to VIP recovery zone"
+    ]
+  }
+]
